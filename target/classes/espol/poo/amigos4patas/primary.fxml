@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="581.0" prefWidth="516.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="espol.poo.amigos4patas.DonacionesController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="33.0" prefWidth="428.0">
+         <children>
+            <Label text="Fundación amigo 4 Patas" />
+         </children>
+      </HBox>
+      <Label alignment="TOP_LEFT" text="De click a la imagen a la que quiere donar" />
+      <FlowPane fx:id="panelCausas" hgap="10.0" prefHeight="200.0" prefWidth="200.0" vgap="10.0" />
+      <Label fx:id="labelCausa" prefHeight="17.0" prefWidth="236.0" text="Causa Seleccionada:" textFill="#f73b2a" />
+      <HBox prefHeight="66.0" prefWidth="466.0">
+         <children>
+            <TextField fx:id="txtNombre" prefHeight="27.0" prefWidth="244.0" promptText="Nombre" />
+         </children>
+      </HBox>
+      <HBox prefHeight="81.0" prefWidth="466.0">
+         <children>
+            <TextField fx:id="txtCantidad" prefHeight="27.0" prefWidth="244.0" promptText="Cantidad" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="121.0" prefWidth="428.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#realizarDonacion" text="Enviar" textAlignment="CENTER" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

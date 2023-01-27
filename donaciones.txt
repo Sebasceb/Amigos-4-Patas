@@ -1,0 +1,13 @@
+Operacion Matias, Luis, 10
+Casa Josefa, Mercedes Castro, 5
+Transplante Gemelos, Lourdes Alvarez, 20
+Casa para Maria, Francisco, 10
+Operacion Matias, Andres, 20
+Casa Josefa, Camilo, 10
+Transplante Gemelos, Luis Andrade, 50
+Casa para Maria, Carolina, 10
+Casa Josefa, Karem, 12.0
+Transplante Gemelos, Franklin, 20.0
+Operacion Matias, Jose Lopez, 5.0
+Operacion Matias, Patricia, 4.0
+Transplante Gemelos, Miguel , 5.0
